@@ -1,0 +1,98 @@
+<doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Novo Sócio - Associação Cultural Luis Lima</title>
+        <link rel="stylesheet" type="text/css" href="css/adesao.css">
+        <script type="text/javascript" src="js/analytics.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/adesao.js"></script>
+    </head>
+    <body>
+		<div id="formulario">
+            <p id="ficha">ficha de admissão de <span style="color:red">novo sócio</span></p>
+            <img src="img/logo.png" width="200" height="73" alt="AC Luis Lima">
+            <div id="passo1">
+                <div id="passo-seguinte">
+                    <h1>Já preencheu anteriormente<br/>esta ficha?</h1>
+                    <div class="botao little">
+                        <p>Sim</p>
+                        <img src="img/forward.png" width="30" height="31">
+                    </div>
+                </div>
+                <h1>dados biográficos</h1>
+                <input type="text" name="nome" id="nome" placeholder="Nome Completo" required>
+                <input type="date" name="data-nascimento" id="data-nascimento" placeholder="Data de Nascimento" required>
+                <input type="text" name="nif" id="nif" placeholder="NIF" required>
+                <input type="text" name="bi" id="num-bi" placeholder="B.I./Cartão de Cidadão" required>
+                <input type="text" name="ocupacao" id="ocupacao" placeholder="Ocupação">
+                <h1>contactos</h1>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required>
+                <input type="text" name="site" id="site" placeholder="Website / Blog">
+                <h1>areas-interesse</h1>
+                <div class="interesse"><div class="checkbox"></div><p>arte</p></div>
+                <div class="interesse"><div class="checkbox"></div><p>fotografia</p></div>
+                <div class="interesse"><div class="checkbox"></div><p>teatro</p></div>
+                <div class="interesse"><div class="checkbox"></div><p>literatura</p></div>
+                <div class="interesse"><div class="checkbox"></div><p>música</p></div>
+                <div class="interesse"><div class="checkbox"></div><p>cinema</p></div>
+                <div class="interesse"><div class="checkbox"></div><p>design</p></div>
+                <div class="interesse"><div class="checkbox"></div><p>dança</p></div>
+                <div class="interesse"><div class="checkbox"></div><p>conferências</p></div>
+                <h1>outros</h1>
+                <h2>Tomei conhecimento da Associação através de:</h2>
+                <input type="text" name="conhecimento" id="conhecimento">
+                <h2>Refira os principais temas que gostaria de ver abordados pela Associação</h2>
+                <input type="text" name="temas" id="temas">
+                <h2>Sugestões</h2>
+                <input type="text" name="sugestoes" id="sugestoes">
+                <div id="confirmacao">
+                    <p>Comprometo-me a respeitar e aceitar implicitamente os Termos e Condições impostos pelo Regulamento Interno da Associação Cultural Luís Lima, sob pena de Suspenção ou Exclusão de acordo com os pressupostos do mesmo.</p>
+                    <p><input type="checkbox" id="confirmo" name="confirmou">Pretendo que as notificações das convocatórias para as Assembleias Gerais  e/ou para quaisquer outros	 assuntos sejam efetuados por email. (Preencher campo “email” que consta em cima.)</p>
+                    <p class="small">Toda a informação facultada é absolutamente sigilosa e será usada apenas pela Associação Cultural Luís Lima para efeitos administrativos.</p>
+                    <div class="botao">
+                        <p>Passo Seguinte</p>
+                        <img src="img/forward.png" width="30" height="31">
+                    </div>
+                </div>
+            </div>            
+            <div id="passo2">
+                <div id="passo2-sucesso">
+                	<table>
+                    	<tr>
+                        	<td><h1>Os seus dados foram submetidos com sucesso.</h1></td>
+                        	<td><img src="img/success.png" width="32" height="32"></td>
+                    	</tr>
+                    </table>
+                </div>
+                <div id="passo3-from-form">
+                    <h1 class="notransf">Para concluir terá apenas que imprimir a ficha de admissão que foi enviado para o seu email, assinar e enviar a digitalizaçao juntamente com a cópia do seu B.i./cartão de cidadão.</h1>
+                    <p>Procurar o ficheiro da digitalização da sua Ficha de Admissão:</p>         
+                    <input type="text" name="ficheiro" class="ficheiro-1" placeholder="Selecione o ficheiro a enviar." disabled>
+                    <div class="botao partof">
+                        <p>Procurar</p>
+                        <img src="img/procurar-ico.png" width="30" height="30">
+                    </div>
+                </div>
+                <div id="passo3-from-user">
+                    <h1 class="notransf">Se já prencheu e submeteu a sua ficha de admissão e apenas quer enviar o ficheiro de digitalização, digite aqui o seu email:</h1>
+                    <input type="email" name="email" id="email">
+                    <p class="apontamento">Caso pretenda receber novamente a ficha de admissão no seu email, preencha o campo acima e <span>clique aqui</span>.</p>
+                    <p>Procurar o ficheiro da digitalização da sua Ficha de Admissão:</p>
+                    <input type="text" name="ficheiro" class="ficheiro-1" placeholder="Selecione o ficheiro a enviar." disabled>
+                    <div class="botao partof">
+                        <p>Procurar</p>
+                        <img src="img/procurar-ico.png" width="30" height="30">
+                    </div>
+                </div>
+                <div id="enviar">
+                    <div class="botao">
+                        <p>Enviar</p>
+                        <img src="img/forward.png" width="30" height="30">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>	

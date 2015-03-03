@@ -1,0 +1,52 @@
+/* CSS Document */
+
+@import url("fonts.css");
+
+body { margin:0px; background-color:#ff003b }
+h1 { font-family:"Eveleth Clean Regular"; font-size:16px; }
+h2 { color:#333333; font-family:"Proxima Nova Rg"; font-size:16px; margin:0px 0px 10px 0px; font-weight:400 }
+input:focus:not(#confirmo), input:focus:not(.ficheiro-1)  { outline:none; border:solid 2px red; background-color:white; padding:18px 20px;  }
+input:not(#confirmo) { height:10px; border:none; background-color:#ededed; border-radius:10px; padding:20px; font-family:"Proxima Nova Rg"; color:#818181; font-size:16px; margin-bottom:20px; }
+
+.interesse { display:inline-block; width:137px; margin-bottom:10px; cursor:pointer; }
+.interesse:nth-child(22) { width:150px }
+.interesse * { display:inline-block; vertical-align:text-top; float:left; text-transform:capitalize }
+.interesse p { margin:10px 0 0 10px; font-family:"Proxima Nova Rg"; font-size:16px; color:#333333 }
+.checkbox { width:34px; height:34px; background-image:url(../img/checkbox.png); background-position:0px 0px }
+.botao { float:right; background-color:#ff003b; border-radius:10px; padding:10px; min-width:170px; display:inline-block; cursor:pointer; color:white; font-family:"Proxima Nova Rg"; font-size:18px }
+.botao p { margin:0px !important; padding:0px !important; margin-top:8px !important; display:inline-block; }
+.botao img { margin:0px !important; padding:0px; float:right } 
+.small { font-size:11px; }
+.little { min-width:90px; float:left !important; }
+.botao:hover { box-shadow:0px 0px 7px rgba(0,0,0,0.5); }
+
+#formulario { background-color:white;  max-width:710px; padding:35px 50px 0px 50px; margin:0 auto; box-shadow:0px 0px 20px rgba(0,0,0,0.75); }
+#formulario img { margin-bottom:45px }
+#site { width:710px; }
+#nome { width: 467px; margin-right: 16px; }
+#data-nascimento, #num-bi, #ocupacao, #telefone, #nif { width:223px; } 
+#num-bi { margin-left:16px; margin-right:16px; }
+#email { width: 467px; margin-right: 16px; }
+#conhecimento, #temas, #sugestoes { width:710px }
+#ficha { font-family:"Eveleth Clean Regular"; font-size:18px; width:220px; float:right; vertical-align:top }
+#confirmacao { background-color:ededed; max-width:710px; padding:35px 50px; margin:0 auto; line-height:120% }
+#confirmacao { font-family:"Proxima Nova Rg"; font-size:14px; margin:0px -50px 0px -50px; height:220px; }   
+#passo-seguinte { height: 150px; border-top: solid 2px #ededed; border-bottom: solid 2px #ededed; padding: 30px 50px; margin: 0 -50px; margin-bottom:20px; } 
+#passo-seguinte h1 { font-size:24px; }
+#confirmacao .botao { margin-top:20px; }
+
+#passo2-sucesso {  max-width:710px; background-color:#6ecd11; padding:12px 50px; margin:0 auto; line-height:120%; margin: 0px -50px 0px -50px; }
+#passo2-sucesso h1 { margin:0px;  padding:0px; font-family: "Proxima Nova Rg"; font-size: 24px; font-weight:lighter; color:white; display:inline; }
+#passo2-sucesso img { margin:0px; padding:0px; display:inline; margin-left:20px; }
+#passo2 { border-top: solid 2px #ededed; max-width:710px; padding: 0px 50px 20px 50px; margin:0 auto; line-height:120%; margin: 0px -50px 0px -50px;  }
+
+#passo2 { font-family: "Proxima Nova Rg"; font-size: 18px; color:#333333; }
+#enviar {  max-width:710px; background-color:#ededed; padding:12px 50px; margin:0 auto; line-height:120%; margin: 50px -50px -20px -50px; height:100px; }
+#enviar .botao { vertical-align:middle; margin-top:25px; }
+.apontamento { margin:0px; font-size:12px; margin-top:-10px; }
+.apontamento span { color:red; text-decoration:underline; cursor:pointer }
+.notransf { text-transform:none; font-family:"Proxima Nova Rg"; margin:30px auto; font-size:21px; color:#333333; line-height:120%; }
+.partof { min-width:120px; border-bottom-left-radius: 0px !important; border-top-left-radius: 0px !important; float: none; vertical-align: bottom; margin-left:-5px; }
+.partof p { float:right !important; padding-right: 7px !important; }
+.partof img { float:left !important }
+.ficheiro-1 { width:320px; border-bottom-right-radius:0px !important; border-top-right-radius:0px !important; margin:0px !important; height:50px !important; }
